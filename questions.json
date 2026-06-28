@@ -14003,320 +14003,280 @@
     "id": 1000,
     "chapter": "免疫系统",
     "question": "免疫系统清除病原体的功能称为:",
-    "options": {
-      "A": "排斥反应",
-      "B": "免疫监视",
-      "C": "免疫防御",
-      "D": "⾃身免疫",
-      "E": "免疫⾃身稳定"
-    },
     "answer": "C",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "排斥反应",
+    "B": "免疫监视",
+    "C": "免疫防御",
+    "D": "⾃身免疫",
+    "E": "免疫⾃身稳定"
   },
   {
     "id": 1001,
     "chapter": "免疫系统",
     "question": "介导细胞免疫的最主要的细胞是在哪个脏器中发育成熟的:",
-    "options": {
-      "A": "淋巴结",
-      "B": "胸腺",
-      "C": "⻣髓",
-      "D": "肝脏",
-      "E": "脾"
-    },
     "answer": "B",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "淋巴结",
+    "B": "胸腺",
+    "C": "⻣髓",
+    "D": "肝脏",
+    "E": "脾"
   },
   {
     "id": 1002,
     "chapter": "免疫系统",
     "question": "传递B细胞活化共刺激信号的分⼦是:",
-    "options": {
-      "A": "CD19和CD21",
-      "B": "CD3",
-      "C": "CD40",
-      "D": "CD4和CD8",
-      "E": "CD79a和CD79b"
-    },
     "answer": "C",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "CD19和CD21",
+    "B": "CD3",
+    "C": "CD40",
+    "D": "CD4和CD8",
+    "E": "CD79a和CD79b"
   },
   {
     "id": 1003,
     "chapter": "免疫系统",
     "question": "TCR与哪个膜分⼦结合组成复合物",
-    "options": {
-      "A": "CD4",
-      "B": "CD3",
-      "C": "CD28",
-      "D": "CD40",
-      "E": "CD8"
-    },
     "answer": "B",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "CD4",
+    "B": "CD3",
+    "C": "CD28",
+    "D": "CD40",
+    "E": "CD8"
   },
   {
     "id": 1004,
     "chapter": "免疫系统",
     "question": "下列属于适应性免疫应答特点的是:",
-    "options": {
-      "A": "与⽣俱来",
-      "B": "接触抗原后迅速产⽣",
-      "C": "⽆抗原特异性",
-      "D": "⽆需固有免疫的参与",
-      "E": "有免疫记忆"
-    },
     "answer": "E",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "与⽣俱来",
+    "B": "接触抗原后迅速产⽣",
+    "C": "⽆抗原特异性",
+    "D": "⽆需固有免疫的参与",
+    "E": "有免疫记忆"
   },
   {
     "id": 1005,
     "chapter": "免疫系统",
     "question": "临床上⻣髓移植后出现的排斥反应主要和哪个抗原有关:",
-    "options": {
-      "A": "⾃身抗原",
-      "B": "异嗜性抗原",
-      "C": "异种抗原",
-      "D": "主要组织相容性抗原",
-      "E": "超抗原"
-    },
     "answer": "D",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "⾃身抗原",
+    "B": "异嗜性抗原",
+    "C": "异种抗原",
+    "D": "主要组织相容性抗原",
+    "E": "超抗原"
   },
   {
     "id": 1006,
     "chapter": "免疫系统",
     "question": "哪个器官是B细胞发育的部位:",
-    "options": {
-      "A": "⻣髓",
-      "B": "脾脏",
-      "C": "胸腺",
-      "D": "淋巴结",
-      "E": "粘膜"
-    },
     "answer": "A",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "⻣髓",
+    "B": "脾脏",
+    "C": "胸腺",
+    "D": "淋巴结",
+    "E": "粘膜"
   },
   {
     "id": 1007,
     "chapter": "免疫系统",
     "question": "细胞因⼦的基本特征不包括:",
-    "options": {
-      "A": "多数是糖蛋⽩",
-      "B": "半衰期短",
-      "C": "主要通过远距离发挥作⽤",
-      "D": "低浓度",
-      "E": "与受体结合发挥作⽤"
-    },
     "answer": "C",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "多数是糖蛋⽩",
+    "B": "半衰期短",
+    "C": "主要通过远距离发挥作⽤",
+    "D": "低浓度",
+    "E": "与受体结合发挥作⽤"
   },
   {
     "id": 1008,
     "chapter": "免疫系统",
     "question": "异嗜性抗原是指:",
-    "options": {
-      "A": "不同物种间共有的抗原",
-      "B": "同种异型抗原",
-      "C": "相同物种间的不同抗原",
-      "D": "隔绝的⾃身抗原",
-      "E": "独特型抗原"
-    },
     "answer": "A",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "不同物种间共有的抗原",
+    "B": "同种异型抗原",
+    "C": "相同物种间的不同抗原",
+    "D": "隔绝的⾃身抗原",
+    "E": "独特型抗原"
   },
   {
     "id": 1009,
     "chapter": "免疫系统",
     "question": "传递T细胞活化共刺激信号的分⼦是:",
-    "options": {
-      "A": "CD40",
-      "B": "CD4",
-      "C": "CD28",
-      "D": "CD81",
-      "E": "CD152"
-    },
     "answer": "C",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "CD40",
+    "B": "CD4",
+    "C": "CD28",
+    "D": "CD81",
+    "E": "CD152"
   },
   {
     "id": 1010,
     "chapter": "免疫系统",
     "question": "抗体的中和作⽤是:",
-    "options": {
-      "A": "结合病毒并通过ADCC效应杀死病毒",
-      "B": "结合游离的病毒即可使其失去感染性",
-      "C": "通过细胞毒作⽤杀死感染病毒的细胞",
-      "D": "结合病毒并通过免疫调理作⽤促进病毒的吞噬清除",
-      "E": "结合病毒并通过结合补体促进吞噬病毒"
-    },
     "answer": "B",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "结合病毒并通过ADCC效应杀死病毒",
+    "B": "结合游离的病毒即可使其失去感染性",
+    "C": "通过细胞毒作⽤杀死感染病毒的细胞",
+    "D": "结合病毒并通过免疫调理作⽤促进病毒的吞噬清除",
+    "E": "结合病毒并通过结合补体促进吞噬病毒"
   },
   {
     "id": 1011,
     "chapter": "免疫系统",
     "question": "对中性粒细胞有趋化作⽤的的补体成分是:",
-    "options": {
-      "A": "C2a",
-      "B": "C3b",
-      "C": "C4b",
-      "D": "C5a",
-      "E": "CBb"
-    },
     "answer": "D",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "C2a",
+    "B": "C3b",
+    "C": "C4b",
+    "D": "C5a",
+    "E": "CBb"
   },
   {
     "id": 1012,
     "chapter": "免疫系统",
     "question": "补体活化经典途径C3转化酶是:",
-    "options": {
-      "A": "C1qrs",
-      "B": "C4b2a",
-      "C": "C3b4b",
-      "D": "C3bBb",
-      "E": "C4b2a3b"
-    },
     "answer": "B",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "C1qrs",
+    "B": "C4b2a",
+    "C": "C3b4b",
+    "D": "C3bBb",
+    "E": "C4b2a3b"
   },
   {
     "id": 1013,
     "chapter": "免疫系统",
     "question": "半抗原的特性是:",
-    "options": {
-      "A": "结构复杂",
-      "B": "有抗原性，⽆免疫原性",
-      "C": "可同时激活多个淋巴细胞",
-      "D": "既有免疫原性⼜有抗原性",
-      "E": "有免疫原性，⽆抗原性"
-    },
     "answer": "B",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "结构复杂",
+    "B": "有抗原性，⽆免疫原性",
+    "C": "可同时激活多个淋巴细胞",
+    "D": "既有免疫原性⼜有抗原性",
+    "E": "有免疫原性，⽆抗原性"
   },
   {
     "id": 1014,
     "chapter": "免疫系统",
     "question": "能通过胎盘传给胎⼉的抗体是:",
-    "options": {
-      "A": "IgE",
-      "B": "IgA",
-      "C": "IgG",
-      "D": "IgM",
-      "E": "IgD"
-    },
     "answer": "C",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "IgE",
+    "B": "IgA",
+    "C": "IgG",
+    "D": "IgM",
+    "E": "IgD"
   },
   {
     "id": 1015,
     "chapter": "免疫系统",
     "question": "免疫监视的功能主要指:",
-    "options": {
-      "A": "抗肿瘤免疫",
-      "B": "过敏反应",
-      "C": "抗感染免疫",
-      "D": "⾃身耐受",
-      "E": "免疫缺陷"
-    },
     "answer": "A",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "抗肿瘤免疫",
+    "B": "过敏反应",
+    "C": "抗感染免疫",
+    "D": "⾃身耐受",
+    "E": "免疫缺陷"
   },
   {
     "id": 1016,
     "chapter": "免疫系统",
     "question": "巨噬细胞的功能不包括:",
-    "options": {
-      "A": "促进炎症反应",
-      "B": "清除杀伤病原体",
-      "C": "产⽣抗体",
-      "D": "提呈抗原",
-      "E": "吞噬作⽤"
-    },
     "answer": "C",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "促进炎症反应",
+    "B": "清除杀伤病原体",
+    "C": "产⽣抗体",
+    "D": "提呈抗原",
+    "E": "吞噬作⽤"
   },
   {
     "id": 1017,
     "chapter": "免疫系统",
     "question": "补体活化的共同末端效应是产⽣:",
-    "options": {
-      "A": "C56789",
-      "B": "C3bBb",
-      "C": "C3b",
-      "D": "C5b",
-      "E": "C4b2a"
-    },
     "answer": "A",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "C56789",
+    "B": "C3bBb",
+    "C": "C3b",
+    "D": "C5b",
+    "E": "C4b2a"
   },
   {
     "id": 1018,
     "chapter": "免疫系统",
     "question": "提示病原体新近感染的抗体是:",
-    "options": {
-      "A": "IgA",
-      "B": "IgG",
-      "C": "IgD",
-      "D": "IgM",
-      "E": "IgE"
-    },
     "answer": "D",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "IgA",
+    "B": "IgG",
+    "C": "IgD",
+    "D": "IgM",
+    "E": "IgE"
   },
   {
     "id": 1019,
     "chapter": "免疫系统",
     "question": "与强直性脊柱炎强关联的是:",
-    "options": {
-      "A": "HLA-DR3",
-      "B": "HLA-DR2",
-      "C": "HLA-B7",
-      "D": "HLA-B27",
-      "E": "HLA-DR5"
-    },
     "answer": "D",
     "type": "A1型题",
     "difficulty": "一般",
-    "analysis": ""
+    "analysis": "",
+    "A": "HLA-DR3",
+    "B": "HLA-DR2",
+    "C": "HLA-B7",
+    "D": "HLA-B27",
+    "E": "HLA-DR5"
   }
 ]
