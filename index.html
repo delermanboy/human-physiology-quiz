@@ -2776,8 +2776,6 @@ function submitAnswer() {
       wq.wrongAnswers.push(wrongAnswers);
       wq.missedAnswers.push(missedAnswers);
     }
-  } else {
-    wrongQuestions = wrongQuestions.filter(w => w.id !== q.id);
   }
   localStorage.setItem('wrongQuestions', JSON.stringify(wrongQuestions));
 
@@ -2862,9 +2860,12 @@ function renderWrongList() {
 
   container.innerHTML = `
     <div class="card">
-      <div class="card-header">
+      <div class="card-header" style="flex-wrap:wrap;gap:8px;">
         <h3 style="font-size:17px;font-weight:700;">错题本 (${wrongQuestions.length})</h3>
-        <button class="btn btn-primary btn-sm" onclick="startWrongQuiz()">&#x1F504; 开始错题练习</button>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <button class="btn btn-primary btn-sm" onclick="startWrongQuiz()">&#x1F504; 开始错题练习</button>
+          <button class="btn btn-sm" style="background:var(--danger-bg);color:var(--danger);border:1px solid rgba(248,113,113,0.3);" onclick="if(confirm('确定要清空全部错题吗？')){wrongQuestions=[];localStorage.setItem('wrongQuestions','[]');updateStats();renderWrongPage();showToast('错题本已清空');}">&#x1F5D1; 清空</button>
+        </div>
       </div>
       <div class="card-body" style="padding:0;">
         ${wrongQuestions.map((q, i) => {
@@ -2881,9 +2882,12 @@ function renderWrongList() {
           return `
           <div class="wrong-item" onclick="reviewWrongQuestion(${i})">
             <div class="wrong-item-header">
-              <span class="tag tag-chapter">${q.chapter}</span>
-              <span class="tag ${q.difficulty === '容易' ? 'tag-easy' : q.difficulty === '难' || q.difficulty === '很难' ? 'tag-hard' : 'tag-normal'}">${q.difficulty || ''}</span>
-              <span style="font-size:12px;color:var(--danger);">错${q.wrongCount || 1}次</span>
+              <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+                <span class="tag tag-chapter">${q.chapter}</span>
+                <span class="tag ${q.difficulty === '容易' ? 'tag-easy' : q.difficulty === '难' || q.difficulty === '很难' ? 'tag-hard' : 'tag-normal'}">${q.difficulty || ''}</span>
+                <span style="font-size:12px;color:var(--danger);">错${q.wrongCount || 1}次</span>
+              </div>
+              <button class="btn btn-sm" style="background:var(--danger-bg);color:var(--danger);border:1px solid rgba(248,113,113,0.3);padding:4px 10px;font-size:12px;" onclick="event.stopPropagation();removeWrongQuestion(${i})" title="移出错题本">&#x2715;</button>
             </div>
             <div class="wrong-item-q">${q.question}</div>
             <div class="wrong-item-meta">
@@ -2900,6 +2904,15 @@ function renderWrongList() {
 function reviewWrongQuestion(idx) {
   const q = wrongQuestions[idx];
   startQuiz('wrong', [q], '错题复习');
+}
+
+function removeWrongQuestion(idx) {
+  const q = wrongQuestions[idx];
+  wrongQuestions.splice(idx, 1);
+  localStorage.setItem('wrongQuestions', JSON.stringify(wrongQuestions));
+  updateStats();
+  renderWrongPage();
+  showToast('已移出错题本');
 }
 
 function startWrongQuiz() {
@@ -3207,8 +3220,6 @@ function submitExam() {
         wq.wrongAnswers.push(wrongAnswers);
         wq.missedAnswers.push(missedAnswers);
       }
-    } else {
-      wrongQuestions = wrongQuestions.filter(w => w.id !== q.id);
     }
   });
 
