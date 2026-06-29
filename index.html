@@ -2864,7 +2864,7 @@ function renderWrongList() {
         <h3 style="font-size:17px;font-weight:700;">错题本 (${wrongQuestions.length})</h3>
         <div style="display:flex;gap:8px;align-items:center;">
           <button class="btn btn-primary btn-sm" onclick="startWrongQuiz()">&#x1F504; 开始错题练习</button>
-          <button class="btn btn-sm" style="background:var(--danger-bg);color:var(--danger);border:1px solid rgba(248,113,113,0.3);" onclick="if(confirm('确定要清空全部错题吗？')){wrongQuestions=[];localStorage.setItem('wrongQuestions','[]');updateStats();renderWrongPage();showToast('错题本已清空');}">&#x1F5D1; 清空</button>
+          <button class="btn btn-sm" style="background:var(--danger-bg);color:var(--danger);border:1px solid rgba(248,113,113,0.3);" onclick="if(confirm('确定要清空全部错题吗？')){wrongQuestions=[];localStorage.setItem('wrongQuestions','[]');updateStats();renderWrongList();showToast('错题本已清空');}">&#x1F5D1; 清空</button>
         </div>
       </div>
       <div class="card-body" style="padding:0;">
@@ -2911,7 +2911,7 @@ function removeWrongQuestion(idx) {
   wrongQuestions.splice(idx, 1);
   localStorage.setItem('wrongQuestions', JSON.stringify(wrongQuestions));
   updateStats();
-  renderWrongPage();
+  renderWrongList();
   showToast('已移出错题本');
 }
 
